@@ -1,10 +1,10 @@
-package de.iweinzierl.jsonformat.html;
+package com.github.iweinzierl.jsonformat.html;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import de.iweinzierl.jsonformat.HtmlFormatter;
-import de.iweinzierl.jsonformat.JsonFactory;
-import de.iweinzierl.jsonformat.TestConstants;
+import com.github.iweinzierl.jsonformat.HtmlFormatter;
+import com.github.iweinzierl.jsonformat.JsonFactory;
+import com.github.iweinzierl.jsonformat.TestConstants;
 import org.junit.Assert;
 import org.junit.Test;
 

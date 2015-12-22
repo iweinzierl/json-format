@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.iweinzierl</groupId>
+    <groupId>com.github.iweinzierl</groupId>
     <artifactId>jsonformat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -151,7 +151,7 @@
                             <Bundle-Description>${project.description}</Bundle-Description>
                             <Bundle-ClassPath>.</Bundle-ClassPath>
                             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
-                            <Bundle-SymbolicName>de.iweinzierl.jsonformat</Bundle-SymbolicName>
+                            <Bundle-SymbolicName>com.github.iweinzierl.jsonformat</Bundle-SymbolicName>
                         </manifestEntries>
                     </archive>
                 </configuration>
@@ -172,9 +172,9 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Eclipse-SourceBundle>de.iweinzierl.jsonformat;version="${project.version}"
+                            <Eclipse-SourceBundle>com.github.iweinzierl.jsonformat;version="${project.version}"
                             </Eclipse-SourceBundle>
-                            <Bundle-SymbolicName>de.iweinzierl.jsonformat.source</Bundle-SymbolicName>
+                            <Bundle-SymbolicName>com.github.iweinzierl.jsonformat.source</Bundle-SymbolicName>
                             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
                             <Bundle-Version>${project.version}</Bundle-Version>
                         </manifestEntries>
@@ -194,7 +194,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <includePackageNames>de.iweinzierl.jsonformat</includePackageNames>
+                    <includePackageNames>com.github.iweinzierl.jsonformat</includePackageNames>
                     <links>
                         <link>http://docs.oracle.com/javase/8/docs/api/</link>
                     </links>

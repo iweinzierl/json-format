@@ -1,4 +1,4 @@
-package de.iweinzierl.jsonformat.html;
+package com.github.iweinzierl.jsonformat.html;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

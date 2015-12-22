@@ -1,4 +1,4 @@
-package de.iweinzierl.jsonformat;
+package com.github.iweinzierl.jsonformat;
 
 public class TestConstants {
 

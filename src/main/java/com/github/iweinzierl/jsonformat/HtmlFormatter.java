@@ -1,11 +1,11 @@
-package de.iweinzierl.jsonformat;
+package com.github.iweinzierl.jsonformat;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import de.iweinzierl.jsonformat.html.AbstractFormatter;
-import de.iweinzierl.jsonformat.html.ArrayFormatter;
-import de.iweinzierl.jsonformat.html.ObjectFormatter;
+import com.github.iweinzierl.jsonformat.html.AbstractFormatter;
+import com.github.iweinzierl.jsonformat.html.ArrayFormatter;
+import com.github.iweinzierl.jsonformat.html.ObjectFormatter;
 
 public class HtmlFormatter extends AbstractFormatter {
 
