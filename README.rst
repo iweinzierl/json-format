@@ -13,8 +13,31 @@ A library to format JSON data. Currently, only HTML is supported in order to pre
     JsonElement element = ...
     new HtmlFormatter().format(element);
 
-Building
-========
+Installation
+============
+
+Maven
+-----
+
+The library is deployed on central maven repository:
+
+.. code-block:: xml
+
+    <dependency>
+        <groupId>com.github.iweinzierl</groupId>
+        <artifactId>jsonformat</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+Gradle
+------
+
+.. code-block:: gradle
+
+    compile 'com.github.iweinzierl:jsonformat:1.0'
+
+Manual Build
+------------
 
 .. code-block:: bash
 
